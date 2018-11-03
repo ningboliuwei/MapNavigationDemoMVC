@@ -16,10 +16,3 @@ body {
 main {
     flex: 1 0 auto;
 }
-
-.footer {
-    width: 100%;
-    flex-shrink: 0;
-    height: 40px;
-    line-height: 40px;
-}

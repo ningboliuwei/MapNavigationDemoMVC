@@ -1,59 +1,79 @@
-﻿<!doctype html>
-<html lang="en">
+﻿<!DOCTYPE html>
+<html>
 <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <link rel="stylesheet" href="../../Content/Site.css">
-    <title>Sticky Footer Navbar Template for Bootstrap</title>
+    <link href='https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900|Material+Icons' rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/vuetify/dist/vuetify.min.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui">
 </head>
-
 <body>
+<div id="app">
+    <v-app>
+        <v-toolbar color="indigo" dark fixed app>
+            <v-toolbar-side-icon></v-toolbar-side-icon>
+            <v-toolbar-title>导航系统</v-toolbar-title>
+        </v-toolbar>
+        <v-content>
+            <v-container fluid>
+                <v-layout column>
+                    <v-flex>
+                        <v-select label="Standard"></v-select>
+                    </v-flex>
+                    <v-flex id="map-container" light-green style="height: 300px">
 
-<header>
-    <nav class="navbar navbar-dark bg-primary justify-content-between">
-        <a class="navbar-brand text-light font-weight-bold">可迈达条码追溯系统</a>
-        <form id="formCodeSearch" class="form-inline" onsubmit="return false;">
-            <div class="input-group">
-                <select class="custom-select form-control font-weight-bold rounded-left border-right-0" id="codeType" name="codeType">
-                    <option selected value="">请选择条码类型</option>
-                    <option value="batch-number">生产批号</option>
-                    <option value="batch-card-code">批次卡号</option>
-                    <option value="pack-code">包装条码</option>
-                </select>
-                <div class="invalid-tooltip" id="codeTypeErrorMessage">请选择具体的条码类型</div>
-            </div>
-            <div class="input-group">
-                <input class="form-control font-weight-bold rounded-0" id="code" name="code" type="text" placeholder="请在此输入条码" onkeypress="if (event.keyCode === 13) { queryHandler(); }">
-                <div id="codeErrorMessage" class="invalid-tooltip">条码不能为空</div>
-                <div lcass="input-group-append">
-                    <button id="btnQuery" class="btn btn-success font-weight-bold" style="border-top-left-radius: 0; border-bottom-left-radius: 0" type="button" onclick="queryHandler()">
-                        <i class="fas fa-search"></i> 查询
-                    </button>
-                </div>
-            </div>
-        </form>
-    </nav>
-</header>
+                    </v-flex>
+                </v-layout>
+            </v-container>
+        </v-content>
+        <v-footer color="indigo" app>
+            <v-flex text-xs-center white--text>
+                &copy;2018 宁波大学科学技术学院现代软件工程实验室
+            </v-flex>
+        </v-footer>
+    </v-app>
+</div>
 
-<!-- Begin page content -->
-<main role="main" class="invisible">
-    <div class="container-fluid p-3">
-        <div class="row no-gutters"></div>
-    </div>
-</main>
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/vuetify/dist/vuetify.js"></script>
+<script src="https://webapi.amap.com/maps?v=1.4.10&key=b1b74d37af79bb235194018744626451"></script>
+<script>
+    var vm = new Vue({ el: '#app' });
+    var map = new AMap.Map('map-container',
+        {
+            zoom: 18, //级别
+            viewMode: '3D' //使用3D视图
+        });
 
-<footer class="footer bg-primary">
-    <div class="container-fluid text-center">
-        <span class=" text-light">Copyright 2018 可迈达公司</span>
-    </div>
-</footer>
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    map.plugin(['AMap.ToolBar','AMap.Geolocation'],
+        function () {
+            var toolbar = new AMap.ToolBar();
+            map.addControl(toolbar);
+
+            var geolocation = new AMap.Geolocation({
+                // 是否使用高精度定位，默认：true
+                enableHighAccuracy: true,
+                // 设置定位超时时间，默认：无穷大
+                timeout: 10000,
+                // 定位按钮的停靠位置的偏移量，默认：Pixel(10, 20)
+                buttonOffset: new AMap.Pixel(10, 20),
+                //  定位成功后调整地图视野范围使定位位置及精度范围视野内可见，默认：false
+                zoomToAccuracy: true,
+                //  定位按钮的排放位置,  RB表示右下
+                buttonPosition: 'RB'
+            });
+
+            map.addControl(geolocation);
+            geolocation.getCurrentPosition();
+            AMap.event.addListener(geolocation, 'complete', onComplete);
+            AMap.event.addListener(geolocation, 'error', onError);
+
+            function onComplete(data) {
+                // data是具体的定位信息
+            }
+
+            function onError(data) {
+                // 定位出错
+            }
+        });
+</script>
 </body>
-
 </html>
