@@ -58,7 +58,6 @@
       <change beforePath="$PROJECT_DIR$/../CMDMES-TRACE-LAYERS/Data/Repositories/MMTRACEBATCHCARDRepository.cs" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../CMDMES-TRACE-LAYERS/Data/Repositories/MMTRACEORDERRepository.cs" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../CMDMES-TRACE-LAYERS/Data/TracingEntities.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.MapNavigationDemoMVC/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MapNavigationDemoMVC/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MapNavigationDemoMVC/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MapNavigationDemoMVC/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MapNavigationDemoMVC/Views/Home/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/MapNavigationDemoMVC/Views/Home/Index.cshtml" afterDir="false" />
     </list>
@@ -93,13 +92,13 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="cs" value="3" />
-          <entry key="cshtml" value="1284" />
+          <entry key="cshtml" value="1470" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="C#" value="3" />
-          <entry key="Razor" value="1284" />
+          <entry key="Razor" value="1470" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
@@ -111,12 +110,12 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MapNavigationDemoMVC/Controllers/HomeController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+            <state relative-caret-position="153">
+              <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
               <folding>
-                <marker date="1541129300308" expanded="true" signature="65:209" ph="{...}" />
-                <marker date="1541129300308" expanded="true" signature="112:207" ph="{...}" />
-                <marker date="1541129300308" expanded="true" signature="154:201" ph="{...}" />
+                <marker date="1541210147195" expanded="true" signature="65:209" ph="{...}" />
+                <marker date="1541210147195" expanded="true" signature="112:207" ph="{...}" />
+                <marker date="1541210147195" expanded="true" signature="154:201" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -125,38 +124,38 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/MapNavigationDemoMVC/Views/Home/Index.cshtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="850">
-              <caret line="50" column="47" lean-forward="true" selection-start-line="50" selection-start-column="47" selection-end-line="50" selection-end-column="47" />
+            <state relative-caret-position="204">
+              <caret line="18" column="74" selection-start-line="18" selection-start-column="74" selection-end-line="18" selection-end-column="74" />
               <folding>
-                <marker date="1541432987140" expanded="true" signature="16:4894" ph="&lt;html.../&gt;" />
-                <marker date="1541432987140" expanded="true" signature="23:371" ph="&lt;head.../&gt;" />
-                <marker date="1541432987140" expanded="true" signature="372:4886" ph="&lt;body.../&gt;" />
-                <marker date="1541432987140" expanded="true" signature="379:1366" ph="&lt;div.../&gt;" />
-                <marker date="1541432987140" expanded="true" signature="398:1359" ph="&lt;v-app.../&gt;" />
-                <marker date="1541432987140" expanded="true" signature="414:584" ph="&lt;v-toolbar.../&gt;" />
-                <marker date="1541432987140" expanded="true" signature="593:1181" ph="&lt;v-content.../&gt;" />
-                <marker date="1541432987140" expanded="true" signature="617:1160" ph="&lt;v-container.../&gt;" />
-                <marker date="1541432987140" expanded="true" signature="665:1133" ph="&lt;v-layout.../&gt;" />
-                <marker date="1541432987140" expanded="true" signature="703:1003" ph="&lt;v-flex.../&gt;" />
-                <marker date="1541432987140" expanded="true" signature="736:871" ph="&lt;v-combobox.../&gt;" />
-                <marker date="1541432987140" expanded="true" signature="1024:1105" ph="&lt;v-flex.../&gt;" />
-                <marker date="1541432987140" expanded="true" signature="1190:1346" ph="&lt;v-footer.../&gt;" />
-                <marker date="1541432987140" expanded="true" signature="1232:1326" ph="&lt;v-flex.../&gt;" />
-                <marker date="1541432987140" expanded="true" signature="1613:4878" ph="&lt;script.../&gt;" />
-                <marker date="1541432987140" expanded="true" signature="1643:3017" ph="{...}" />
-                <marker date="1541432987140" expanded="true" signature="1679:1779" ph="{...}" />
-                <marker date="1541432987140" expanded="true" signature="1798:3011" ph="{...}" />
-                <marker date="1541432987140" expanded="true" signature="1836:2402" ph="{...}" />
-                <marker date="1541432987140" expanded="true" signature="1869:1980" ph="[...]" />
-                <marker date="1541432987140" expanded="true" signature="2079:2308" ph="{...}" />
-                <marker date="1541432987140" expanded="true" signature="2442:3001" ph="{...}" />
-                <marker date="1541432987140" expanded="true" signature="2601:2985" ph="{...}" />
-                <marker date="1541432987140" expanded="true" signature="3073:3147" ph="{...}" />
-                <marker date="1541432987140" expanded="true" signature="3260:4864" ph="{...}" />
-                <marker date="1541432987140" expanded="true" signature="3307:3387" ph="{...}" />
-                <marker date="1541432987140" expanded="true" signature="3481:3953" ph="{...}" />
-                <marker date="1541432987140" expanded="true" signature="4223:4776" ph="{...}" />
-                <marker date="1541432987140" expanded="true" signature="4813:4852" ph="{...}" />
+                <marker date="1541474808215" expanded="true" signature="16:4949" ph="&lt;html.../&gt;" />
+                <marker date="1541474808215" expanded="true" signature="23:371" ph="&lt;head.../&gt;" />
+                <marker date="1541474808215" expanded="true" signature="372:4941" ph="&lt;body.../&gt;" />
+                <marker date="1541474808215" expanded="true" signature="379:1373" ph="&lt;div.../&gt;" />
+                <marker date="1541474808215" expanded="true" signature="398:1366" ph="&lt;v-app.../&gt;" />
+                <marker date="1541474808215" expanded="true" signature="414:584" ph="&lt;v-toolbar.../&gt;" />
+                <marker date="1541474808215" expanded="true" signature="593:1188" ph="&lt;v-content.../&gt;" />
+                <marker date="1541474808215" expanded="true" signature="617:1167" ph="&lt;v-container.../&gt;" />
+                <marker date="1541474808215" expanded="true" signature="665:1140" ph="&lt;v-layout.../&gt;" />
+                <marker date="1541474808215" expanded="true" signature="703:1010" ph="&lt;v-flex.../&gt;" />
+                <marker date="1541474808215" expanded="true" signature="736:878" ph="&lt;v-combobox.../&gt;" />
+                <marker date="1541474808215" expanded="true" signature="1031:1112" ph="&lt;v-flex.../&gt;" />
+                <marker date="1541474808215" expanded="true" signature="1197:1353" ph="&lt;v-footer.../&gt;" />
+                <marker date="1541474808215" expanded="true" signature="1239:1333" ph="&lt;v-flex.../&gt;" />
+                <marker date="1541474808215" expanded="true" signature="1620:4933" ph="&lt;script.../&gt;" />
+                <marker date="1541474808215" expanded="true" signature="1650:3072" ph="{...}" />
+                <marker date="1541474808215" expanded="true" signature="1686:1786" ph="{...}" />
+                <marker date="1541474808215" expanded="true" signature="1805:3066" ph="{...}" />
+                <marker date="1541474808215" expanded="true" signature="1843:2393" ph="{...}" />
+                <marker date="1541474808215" expanded="true" signature="1876:1987" ph="[...]" />
+                <marker date="1541474808215" expanded="true" signature="2070:2299" ph="{...}" />
+                <marker date="1541474808215" expanded="true" signature="2433:3056" ph="{...}" />
+                <marker date="1541474808215" expanded="true" signature="2480:3042" ph="/* var autoComplete = new AMap.Autocomplete(); ... */" />
+                <marker date="1541474808215" expanded="true" signature="3128:3202" ph="{...}" />
+                <marker date="1541474808215" expanded="true" signature="3315:4919" ph="{...}" />
+                <marker date="1541474808215" expanded="true" signature="3362:3442" ph="{...}" />
+                <marker date="1541474808215" expanded="true" signature="3536:4008" ph="{...}" />
+                <marker date="1541474808215" expanded="true" signature="4278:4831" ph="{...}" />
+                <marker date="1541474808215" expanded="true" signature="4868:4907" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -173,8 +172,8 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/MapNavigationDemoMVC/Views/Home/Index.cshtml" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MapNavigationDemoMVC/Controllers/HomeController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/MapNavigationDemoMVC/Views/Home/Index.cshtml" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -218,12 +217,6 @@
               <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
               <item name="MapNavigationDemoMVC" type="24d0babc:SolutionExplorerModelNode" />
               <item name="MapNavigationDemoMVC" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
-            <path>
-              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="MapNavigationDemoMVC" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="MapNavigationDemoMVC" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Controllers" type="24d0babc:SolutionExplorerModelNode" />
             </path>
             <path>
               <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
@@ -300,7 +293,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21101000" />
+    <option name="totallyTimeSpent" value="24761000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -312,15 +305,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15191898" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17836677" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3257329" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.39136302" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -333,7 +326,7 @@
       <window_info anchor="bottom" id="REST Client" order="12" />
       <window_info anchor="bottom" id="Terminal" order="13" />
       <window_info anchor="bottom" id="Event Log" order="14" side_tool="true" />
-      <window_info anchor="bottom" id="Build" order="15" weight="0.32790446" />
+      <window_info anchor="bottom" id="Build" order="15" weight="0.32658568" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -345,6 +338,8 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
@@ -366,50 +361,50 @@
     <entry file="file://$PROJECT_DIR$/MapNavigationDemoMVC/Views/_ViewStart.cshtml" />
     <entry file="file://$PROJECT_DIR$/MapNavigationDemoMVC/Controllers/HomeController.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+        <state relative-caret-position="153">
+          <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
           <folding>
-            <marker date="1541129300308" expanded="true" signature="65:209" ph="{...}" />
-            <marker date="1541129300308" expanded="true" signature="112:207" ph="{...}" />
-            <marker date="1541129300308" expanded="true" signature="154:201" ph="{...}" />
+            <marker date="1541210147195" expanded="true" signature="65:209" ph="{...}" />
+            <marker date="1541210147195" expanded="true" signature="112:207" ph="{...}" />
+            <marker date="1541210147195" expanded="true" signature="154:201" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/MapNavigationDemoMVC/Views/Home/Index.cshtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="850">
-          <caret line="50" column="47" lean-forward="true" selection-start-line="50" selection-start-column="47" selection-end-line="50" selection-end-column="47" />
+        <state relative-caret-position="204">
+          <caret line="18" column="74" selection-start-line="18" selection-start-column="74" selection-end-line="18" selection-end-column="74" />
           <folding>
-            <marker date="1541432987140" expanded="true" signature="16:4894" ph="&lt;html.../&gt;" />
-            <marker date="1541432987140" expanded="true" signature="23:371" ph="&lt;head.../&gt;" />
-            <marker date="1541432987140" expanded="true" signature="372:4886" ph="&lt;body.../&gt;" />
-            <marker date="1541432987140" expanded="true" signature="379:1366" ph="&lt;div.../&gt;" />
-            <marker date="1541432987140" expanded="true" signature="398:1359" ph="&lt;v-app.../&gt;" />
-            <marker date="1541432987140" expanded="true" signature="414:584" ph="&lt;v-toolbar.../&gt;" />
-            <marker date="1541432987140" expanded="true" signature="593:1181" ph="&lt;v-content.../&gt;" />
-            <marker date="1541432987140" expanded="true" signature="617:1160" ph="&lt;v-container.../&gt;" />
-            <marker date="1541432987140" expanded="true" signature="665:1133" ph="&lt;v-layout.../&gt;" />
-            <marker date="1541432987140" expanded="true" signature="703:1003" ph="&lt;v-flex.../&gt;" />
-            <marker date="1541432987140" expanded="true" signature="736:871" ph="&lt;v-combobox.../&gt;" />
-            <marker date="1541432987140" expanded="true" signature="1024:1105" ph="&lt;v-flex.../&gt;" />
-            <marker date="1541432987140" expanded="true" signature="1190:1346" ph="&lt;v-footer.../&gt;" />
-            <marker date="1541432987140" expanded="true" signature="1232:1326" ph="&lt;v-flex.../&gt;" />
-            <marker date="1541432987140" expanded="true" signature="1613:4878" ph="&lt;script.../&gt;" />
-            <marker date="1541432987140" expanded="true" signature="1643:3017" ph="{...}" />
-            <marker date="1541432987140" expanded="true" signature="1679:1779" ph="{...}" />
-            <marker date="1541432987140" expanded="true" signature="1798:3011" ph="{...}" />
-            <marker date="1541432987140" expanded="true" signature="1836:2402" ph="{...}" />
-            <marker date="1541432987140" expanded="true" signature="1869:1980" ph="[...]" />
-            <marker date="1541432987140" expanded="true" signature="2079:2308" ph="{...}" />
-            <marker date="1541432987140" expanded="true" signature="2442:3001" ph="{...}" />
-            <marker date="1541432987140" expanded="true" signature="2601:2985" ph="{...}" />
-            <marker date="1541432987140" expanded="true" signature="3073:3147" ph="{...}" />
-            <marker date="1541432987140" expanded="true" signature="3260:4864" ph="{...}" />
-            <marker date="1541432987140" expanded="true" signature="3307:3387" ph="{...}" />
-            <marker date="1541432987140" expanded="true" signature="3481:3953" ph="{...}" />
-            <marker date="1541432987140" expanded="true" signature="4223:4776" ph="{...}" />
-            <marker date="1541432987140" expanded="true" signature="4813:4852" ph="{...}" />
+            <marker date="1541474808215" expanded="true" signature="16:4949" ph="&lt;html.../&gt;" />
+            <marker date="1541474808215" expanded="true" signature="23:371" ph="&lt;head.../&gt;" />
+            <marker date="1541474808215" expanded="true" signature="372:4941" ph="&lt;body.../&gt;" />
+            <marker date="1541474808215" expanded="true" signature="379:1373" ph="&lt;div.../&gt;" />
+            <marker date="1541474808215" expanded="true" signature="398:1366" ph="&lt;v-app.../&gt;" />
+            <marker date="1541474808215" expanded="true" signature="414:584" ph="&lt;v-toolbar.../&gt;" />
+            <marker date="1541474808215" expanded="true" signature="593:1188" ph="&lt;v-content.../&gt;" />
+            <marker date="1541474808215" expanded="true" signature="617:1167" ph="&lt;v-container.../&gt;" />
+            <marker date="1541474808215" expanded="true" signature="665:1140" ph="&lt;v-layout.../&gt;" />
+            <marker date="1541474808215" expanded="true" signature="703:1010" ph="&lt;v-flex.../&gt;" />
+            <marker date="1541474808215" expanded="true" signature="736:878" ph="&lt;v-combobox.../&gt;" />
+            <marker date="1541474808215" expanded="true" signature="1031:1112" ph="&lt;v-flex.../&gt;" />
+            <marker date="1541474808215" expanded="true" signature="1197:1353" ph="&lt;v-footer.../&gt;" />
+            <marker date="1541474808215" expanded="true" signature="1239:1333" ph="&lt;v-flex.../&gt;" />
+            <marker date="1541474808215" expanded="true" signature="1620:4933" ph="&lt;script.../&gt;" />
+            <marker date="1541474808215" expanded="true" signature="1650:3072" ph="{...}" />
+            <marker date="1541474808215" expanded="true" signature="1686:1786" ph="{...}" />
+            <marker date="1541474808215" expanded="true" signature="1805:3066" ph="{...}" />
+            <marker date="1541474808215" expanded="true" signature="1843:2393" ph="{...}" />
+            <marker date="1541474808215" expanded="true" signature="1876:1987" ph="[...]" />
+            <marker date="1541474808215" expanded="true" signature="2070:2299" ph="{...}" />
+            <marker date="1541474808215" expanded="true" signature="2433:3056" ph="{...}" />
+            <marker date="1541474808215" expanded="true" signature="2480:3042" ph="/* var autoComplete = new AMap.Autocomplete(); ... */" />
+            <marker date="1541474808215" expanded="true" signature="3128:3202" ph="{...}" />
+            <marker date="1541474808215" expanded="true" signature="3315:4919" ph="{...}" />
+            <marker date="1541474808215" expanded="true" signature="3362:3442" ph="{...}" />
+            <marker date="1541474808215" expanded="true" signature="3536:4008" ph="{...}" />
+            <marker date="1541474808215" expanded="true" signature="4278:4831" ph="{...}" />
+            <marker date="1541474808215" expanded="true" signature="4868:4907" ph="{...}" />
           </folding>
         </state>
       </provider>

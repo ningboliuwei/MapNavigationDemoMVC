@@ -16,7 +16,8 @@
             <v-container fluid fill-height>
                 <v-layout column>
                     <v-flex>
-                        <v-combobox v-model="destination" v-on:change="keywordSearch" v-bind:items="keywordSearchResult">
+                        <v-combobox v-bind:value="destination" v-on:keyup="destination = $event.target.value;keywordSearch();"
+                                    v-bind:items="keywordSearchResult">
                         </v-combobox>
                         <v-btn color="success" v-on:click="routeSearch">GO TO {{destination}}</v-btn>
                     </v-flex>
@@ -52,7 +53,7 @@
                 ];
 
                 map.clearMap();
-                
+
                 var driving = new AMap.Driving({
                     // 驾车路线规划策略，AMap.DrivingPolicy.LEAST_TIME是最快捷模式
                     policy: AMap.DrivingPolicy.LEAST_TIME,
@@ -64,10 +65,11 @@
                 driving.search(points);
             },
             keywordSearch: function() {
+                console.log(vm.destination);
                 var autoComplete = new AMap.Autocomplete();
                 autoComplete.search(vm.destination,
                     function(status, result) {
-                        vm.keywordSearchResult.splice(0, vm.keywordSearchResult.length); //清空数组 
+                        vm.keywordSearchResult.splice(0, vm.keywordSearchResult.length); //清空数组
                         if (result.tips != null) {
                             for (var i = 0; i < result.tips.length; i++) {
                                 vm.keywordSearchResult.push(result.tips[i].name);
