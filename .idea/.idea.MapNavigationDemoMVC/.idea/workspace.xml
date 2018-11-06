@@ -2,63 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8d13184c-df2f-40e0-b8a8-9d1a5149fcbf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../CMDMES-TRACE-LAYERS/.idea/.idea.CMDMES-TRACE-LAYERS/.idea/contentModel.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CMDMES-TRACE-LAYERS/.idea/.idea.CMDMES-TRACE-LAYERS/.idea/indexLayout.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CMDMES-TRACE-LAYERS/.idea/.idea.CMDMES-TRACE-LAYERS/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CMDMES-TRACE-LAYERS/.idea/.idea.CMDMES-TRACE-LAYERS/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CMDMES-TRACE-LAYERS/.idea/.idea.CMDMES-TRACE-LAYERS/riderModule.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CMDMES-TRACE-LAYERS/DAL/BATCHCARD-Repository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CMDMES-TRACE-LAYERS/DAL/Interfaces/IRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CMDMES-TRACE-LAYERS/Data/BATCHCARDRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CMDMES-TRACE-LAYERS/Data/IRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CMDMES-TRACE-LAYERS/Data/RepositoryBase.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CMDMES-TRACE-LAYERS/Data/TracingContext.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../LTDC_PRO/Data/IRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../LTDC_PRO/Data/RepositoryBase.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../LTDC_PRO/Model/BaseModels/CartItemInfo.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../LTDC_PRO/Model/BaseModels/DataDictionaryItemInfo.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../LTDC_PRO/Model/BaseModels/DepartmentInfo.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../LTDC_PRO/Model/BaseModels/DishInfo.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../LTDC_PRO/Model/BaseModels/FileInfo.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../LTDC_PRO/Model/BaseModels/IngredientDosageHistoryInfo.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../LTDC_PRO/Model/BaseModels/IngredientDosageInfo.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../LTDC_PRO/Model/BaseModels/IngredientInfo.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../LTDC_PRO/Model/BaseModels/IngredientPriceHistoryInfo.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../LTDC_PRO/Model/BaseModels/LoginHistoryInfo.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../LTDC_PRO/Model/BaseModels/MealInfo.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../LTDC_PRO/Model/BaseModels/MealRegulationInfo.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../LTDC_PRO/Model/BaseModels/OrderInfo.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../LTDC_PRO/Model/BaseModels/OrderItemInfo.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../LTDC_PRO/Model/BaseModels/OrderPriceHistoryInfo.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../LTDC_PRO/Model/BaseModels/RoleInfo.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../LTDC_PRO/Model/BaseModels/UserInfo.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Vue-cli-learning/.idea/.idea.Vue-cli-learning/.idea/contentModel.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Vue-cli-learning/.idea/.idea.Vue-cli-learning/.idea/indexLayout.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Vue-cli-learning/.idea/.idea.Vue-cli-learning/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Vue-cli-learning/.idea/.idea.Vue-cli-learning/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Vue-cli-learning/.idea/.idea.Vue-cli-learning/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Vue-cli-learning/.idea/.idea.Vue-cli-learning/riderModule.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CMDMES-TRACE-LAYERS/CMDMES-TRACE-LAYERS/.idea/.idea.CMDMES-TRACE-LAYERS/.idea/contentModel.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CMDMES-TRACE-LAYERS/CMDMES-TRACE-LAYERS/Model/Models/MMTRACEBATCHCARD.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CMDMES-TRACE-LAYERS/CMDMES-TRACE-LAYERS/Model/Models/MMTRACEBATCHCARDPICKMATERIAL.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CMDMES-TRACE-LAYERS/CMDMES-TRACE-LAYERS/Model/Models/MMTRACEBATCHCARDSOURCECODE.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CMDMES-TRACE-LAYERS/CMDMES-TRACE-LAYERS/Model/Models/MMTRACEBATCHCARDTRANSFER.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CMDMES-TRACE-LAYERS/CMDMES-TRACE-LAYERS/Model/Models/MMTRACEBATCHCARDTRANSFERDETAIL.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CMDMES-TRACE-LAYERS/CMDMES-TRACE-LAYERS/Model/Models/MMTRACECONTACT.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CMDMES-TRACE-LAYERS/CMDMES-TRACE-LAYERS/Model/Models/MMTRACEORDER.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CMDMES-TRACE-LAYERS/CMDMES-TRACE-LAYERS/Model/Models/MMTRACEPACKBATCHCODE.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CMDMES-TRACE-LAYERS/CMDMES-TRACE-LAYERS/Model/Models/MMTRACEPACKMANAGE.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CMDMES-TRACE-LAYERS/Data/Infrastructure/DbFactory.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CMDMES-TRACE-LAYERS/Data/Infrastructure/Disposable.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CMDMES-TRACE-LAYERS/Data/Infrastructure/IDbFactory.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CMDMES-TRACE-LAYERS/Data/Infrastructure/IRepository.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CMDMES-TRACE-LAYERS/Data/Infrastructure/IUnitOfWork.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CMDMES-TRACE-LAYERS/Data/Infrastructure/RepositoryBase.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CMDMES-TRACE-LAYERS/Data/Infrastructure/UnitOfWork.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CMDMES-TRACE-LAYERS/Data/Repositories/MMTRACEBATCHCARDRepository.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CMDMES-TRACE-LAYERS/Data/Repositories/MMTRACEORDERRepository.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CMDMES-TRACE-LAYERS/Data/TracingEntities.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.MapNavigationDemoMVC/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MapNavigationDemoMVC/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.MapNavigationDemoMVC/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MapNavigationDemoMVC/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MapNavigationDemoMVC/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MapNavigationDemoMVC/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MapNavigationDemoMVC/MapNavigationDemoMVC.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/MapNavigationDemoMVC/MapNavigationDemoMVC.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MapNavigationDemoMVC/Properties/PublishProfiles/自己的阿里云测试版.pubxml" beforeDir="false" afterPath="$PROJECT_DIR$/MapNavigationDemoMVC/Properties/PublishProfiles/自己的阿里云测试版.pubxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MapNavigationDemoMVC/Views/Home/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/MapNavigationDemoMVC/Views/Home/Index.cshtml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -71,10 +19,11 @@
     <session id="-49868052">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="3" />
+          <entry key="project.open.time.19" value="1" />
           <entry key="project.open.time.27" value="1" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -92,13 +41,13 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="cs" value="3" />
-          <entry key="cshtml" value="1868" />
+          <entry key="cshtml" value="2435" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="C#" value="3" />
-          <entry key="Razor" value="1868" />
+          <entry key="Razor" value="2435" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
@@ -113,7 +62,6 @@
             <state relative-caret-position="153">
               <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
               <folding>
-                <marker date="1541210147195" expanded="true" signature="65:209" ph="{...}" />
                 <marker date="1541210147195" expanded="true" signature="112:207" ph="{...}" />
                 <marker date="1541210147195" expanded="true" signature="154:201" ph="{...}" />
               </folding>
@@ -124,41 +72,43 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/MapNavigationDemoMVC/Views/Home/Index.cshtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="492">
-              <caret line="93" column="33" selection-start-line="93" selection-start-column="33" selection-end-line="93" selection-end-column="33" />
+            <state relative-caret-position="306">
+              <caret line="18" column="63" selection-start-line="18" selection-start-column="63" selection-end-line="18" selection-end-column="63" />
               <folding>
-                <marker date="1541490360461" expanded="true" signature="16:5642" ph="&lt;html.../&gt;" />
-                <marker date="1541490360461" expanded="true" signature="23:371" ph="&lt;head.../&gt;" />
-                <marker date="1541490360461" expanded="true" signature="372:5634" ph="&lt;body.../&gt;" />
-                <marker date="1541490360461" expanded="true" signature="379:1569" ph="&lt;div.../&gt;" />
-                <marker date="1541490360461" expanded="true" signature="398:1562" ph="&lt;v-app.../&gt;" />
-                <marker date="1541490360461" expanded="true" signature="414:584" ph="&lt;v-toolbar.../&gt;" />
-                <marker date="1541490360461" expanded="true" signature="593:1384" ph="&lt;v-content.../&gt;" />
-                <marker date="1541490360461" expanded="true" signature="617:1363" ph="&lt;v-container.../&gt;" />
-                <marker date="1541490360461" expanded="true" signature="665:1336" ph="&lt;v-layout.../&gt;" />
-                <marker date="1541490360461" expanded="true" signature="703:1206" ph="&lt;v-flex.../&gt;" />
-                <marker date="1541490360461" expanded="true" signature="736:1074" ph="&lt;v-combobox.../&gt;" />
-                <marker date="1541490360461" expanded="true" signature="1227:1308" ph="&lt;v-flex.../&gt;" />
-                <marker date="1541490360461" expanded="true" signature="1393:1549" ph="&lt;v-footer.../&gt;" />
-                <marker date="1541490360461" expanded="true" signature="1435:1529" ph="&lt;v-flex.../&gt;" />
-                <marker date="1541490360461" expanded="true" signature="1816:5626" ph="&lt;script.../&gt;" />
-                <marker date="1541490360461" expanded="true" signature="1874:3767" ph="{...}" />
-                <marker date="1541490360461" expanded="true" signature="1910:2010" ph="{...}" />
-                <marker date="1541490360461" expanded="true" signature="2029:3761" ph="{...}" />
-                <marker date="1541490360461" expanded="true" signature="2067:2617" ph="{...}" />
-                <marker date="1541490360461" expanded="true" signature="2100:2211" ph="[...]" />
-                <marker date="1541490360461" expanded="true" signature="2294:2523" ph="{...}" />
-                <marker date="1541490360461" expanded="true" signature="2657:3307" ph="{...}" />
-                <marker date="1541490360461" expanded="true" signature="2862:3273" ph="{...}" />
-                <marker date="1541490360461" expanded="true" signature="3351:3455" ph="{...}" />
-                <marker date="1541490360461" expanded="true" signature="3510:3603" ph="{...}" />
-                <marker date="1541490360461" expanded="true" signature="3656:3751" ph="{...}" />
-                <marker date="1541490360461" expanded="true" signature="3823:3897" ph="{...}" />
-                <marker date="1541490360461" expanded="true" signature="4010:5614" ph="{...}" />
-                <marker date="1541490360461" expanded="true" signature="4057:4137" ph="{...}" />
-                <marker date="1541490360461" expanded="true" signature="4231:4703" ph="{...}" />
-                <marker date="1541490360461" expanded="true" signature="4973:5526" ph="{...}" />
-                <marker date="1541490360461" expanded="true" signature="5563:5602" ph="{...}" />
+                <marker date="1541515290083" expanded="true" signature="16:5992" ph="&lt;html.../&gt;" />
+                <marker date="1541515290083" expanded="true" signature="23:371" ph="&lt;head.../&gt;" />
+                <marker date="1541515290083" expanded="true" signature="372:5984" ph="&lt;body.../&gt;" />
+                <marker date="1541515290083" expanded="true" signature="379:1668" ph="&lt;div.../&gt;" />
+                <marker date="1541515290083" expanded="true" signature="398:1661" ph="&lt;v-app.../&gt;" />
+                <marker date="1541515290083" expanded="true" signature="414:584" ph="&lt;v-toolbar.../&gt;" />
+                <marker date="1541515290083" expanded="true" signature="593:1483" ph="&lt;v-content.../&gt;" />
+                <marker date="1541515290083" expanded="true" signature="617:1462" ph="&lt;v-container.../&gt;" />
+                <marker date="1541515290083" expanded="true" signature="665:1435" ph="&lt;v-layout.../&gt;" />
+                <marker date="1541515290083" expanded="true" signature="703:1305" ph="&lt;v-flex.../&gt;" />
+                <marker date="1541515290083" expanded="true" signature="736:1173" ph="&lt;v-combobox.../&gt;" />
+                <marker date="1541515290083" expanded="true" signature="1326:1407" ph="&lt;v-flex.../&gt;" />
+                <marker date="1541515290083" expanded="true" signature="1492:1648" ph="&lt;v-footer.../&gt;" />
+                <marker date="1541515290083" expanded="true" signature="1534:1628" ph="&lt;v-flex.../&gt;" />
+                <marker date="1541515290083" expanded="true" signature="1915:5976" ph="&lt;script.../&gt;" />
+                <marker date="1541515290083" expanded="true" signature="1973:4113" ph="{...}" />
+                <marker date="1541515290083" expanded="true" signature="2009:2109" ph="{...}" />
+                <marker date="1541515290083" expanded="true" signature="2128:4107" ph="{...}" />
+                <marker date="1541515290083" expanded="true" signature="2166:2716" ph="{...}" />
+                <marker date="1541515290083" expanded="true" signature="2199:2310" ph="[...]" />
+                <marker date="1541515290083" expanded="true" signature="2393:2622" ph="{...}" />
+                <marker date="1541515290083" expanded="true" signature="2756:3406" ph="{...}" />
+                <marker date="1541515290083" expanded="true" signature="2961:3372" ph="{...}" />
+                <marker date="1541515290083" expanded="true" signature="3450:3554" ph="{...}" />
+                <marker date="1541515290083" expanded="true" signature="3609:3702" ph="{...}" />
+                <marker date="1541515290083" expanded="true" signature="3755:3850" ph="{...}" />
+                <marker date="1541515290083" expanded="true" signature="3894:3949" ph="{...}" />
+                <marker date="1541515290083" expanded="true" signature="3993:4097" ph="{...}" />
+                <marker date="1541515290083" expanded="true" signature="4169:4243" ph="{...}" />
+                <marker date="1541515290083" expanded="true" signature="4356:5964" ph="{...}" />
+                <marker date="1541515290083" expanded="true" signature="4403:4483" ph="{...}" />
+                <marker date="1541515290083" expanded="true" signature="4577:5049" ph="{...}" />
+                <marker date="1541515290083" expanded="true" signature="5319:5876" ph="{...}" />
+                <marker date="1541515290083" expanded="true" signature="5913:5952" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -169,6 +119,8 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>status</find>
+      <find>console.log</find>
+      <find>pasteHandler</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -208,7 +160,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="FileSystemExplorer" />
       <pane id="SolutionExplorer">
         <subPane>
           <expand>
@@ -225,27 +176,22 @@
               <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
               <item name="MapNavigationDemoMVC" type="24d0babc:SolutionExplorerModelNode" />
               <item name="MapNavigationDemoMVC" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Views" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
-            <path>
-              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="MapNavigationDemoMVC" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="MapNavigationDemoMVC" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Views" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Home" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="CommandLineTools" type="24d0babc:SolutionExplorerModelNode" />
             </path>
           </expand>
           <select />
         </subPane>
         <option name="show-all-files" value="false" />
       </pane>
+      <pane id="FileSystemExplorer" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
     <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/MapNavigationDemoMVC/CommandLineTools" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -292,11 +238,12 @@
       <updated>1541125534838</updated>
       <workItem from="1541125541191" duration="9721000" />
       <workItem from="1541160452001" duration="3312000" />
+      <workItem from="1541505223508" duration="6006000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29237000" />
+    <option name="totallyTimeSpent" value="35733000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -308,15 +255,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15220049" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15351813" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.19304153" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.1921824" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -329,7 +276,7 @@
       <window_info anchor="bottom" id="REST Client" order="12" />
       <window_info anchor="bottom" id="Terminal" order="13" />
       <window_info anchor="bottom" id="Event Log" order="14" side_tool="true" />
-      <window_info anchor="bottom" id="Build" order="15" weight="0.325477" />
+      <window_info anchor="bottom" id="Build" order="15" weight="0.32464713" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -341,10 +288,15 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/.." />
+    </ignored-roots>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -367,7 +319,6 @@
         <state relative-caret-position="153">
           <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
           <folding>
-            <marker date="1541210147195" expanded="true" signature="65:209" ph="{...}" />
             <marker date="1541210147195" expanded="true" signature="112:207" ph="{...}" />
             <marker date="1541210147195" expanded="true" signature="154:201" ph="{...}" />
           </folding>
@@ -376,41 +327,43 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/MapNavigationDemoMVC/Views/Home/Index.cshtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="492">
-          <caret line="93" column="33" selection-start-line="93" selection-start-column="33" selection-end-line="93" selection-end-column="33" />
+        <state relative-caret-position="306">
+          <caret line="18" column="63" selection-start-line="18" selection-start-column="63" selection-end-line="18" selection-end-column="63" />
           <folding>
-            <marker date="1541490360461" expanded="true" signature="16:5642" ph="&lt;html.../&gt;" />
-            <marker date="1541490360461" expanded="true" signature="23:371" ph="&lt;head.../&gt;" />
-            <marker date="1541490360461" expanded="true" signature="372:5634" ph="&lt;body.../&gt;" />
-            <marker date="1541490360461" expanded="true" signature="379:1569" ph="&lt;div.../&gt;" />
-            <marker date="1541490360461" expanded="true" signature="398:1562" ph="&lt;v-app.../&gt;" />
-            <marker date="1541490360461" expanded="true" signature="414:584" ph="&lt;v-toolbar.../&gt;" />
-            <marker date="1541490360461" expanded="true" signature="593:1384" ph="&lt;v-content.../&gt;" />
-            <marker date="1541490360461" expanded="true" signature="617:1363" ph="&lt;v-container.../&gt;" />
-            <marker date="1541490360461" expanded="true" signature="665:1336" ph="&lt;v-layout.../&gt;" />
-            <marker date="1541490360461" expanded="true" signature="703:1206" ph="&lt;v-flex.../&gt;" />
-            <marker date="1541490360461" expanded="true" signature="736:1074" ph="&lt;v-combobox.../&gt;" />
-            <marker date="1541490360461" expanded="true" signature="1227:1308" ph="&lt;v-flex.../&gt;" />
-            <marker date="1541490360461" expanded="true" signature="1393:1549" ph="&lt;v-footer.../&gt;" />
-            <marker date="1541490360461" expanded="true" signature="1435:1529" ph="&lt;v-flex.../&gt;" />
-            <marker date="1541490360461" expanded="true" signature="1816:5626" ph="&lt;script.../&gt;" />
-            <marker date="1541490360461" expanded="true" signature="1874:3767" ph="{...}" />
-            <marker date="1541490360461" expanded="true" signature="1910:2010" ph="{...}" />
-            <marker date="1541490360461" expanded="true" signature="2029:3761" ph="{...}" />
-            <marker date="1541490360461" expanded="true" signature="2067:2617" ph="{...}" />
-            <marker date="1541490360461" expanded="true" signature="2100:2211" ph="[...]" />
-            <marker date="1541490360461" expanded="true" signature="2294:2523" ph="{...}" />
-            <marker date="1541490360461" expanded="true" signature="2657:3307" ph="{...}" />
-            <marker date="1541490360461" expanded="true" signature="2862:3273" ph="{...}" />
-            <marker date="1541490360461" expanded="true" signature="3351:3455" ph="{...}" />
-            <marker date="1541490360461" expanded="true" signature="3510:3603" ph="{...}" />
-            <marker date="1541490360461" expanded="true" signature="3656:3751" ph="{...}" />
-            <marker date="1541490360461" expanded="true" signature="3823:3897" ph="{...}" />
-            <marker date="1541490360461" expanded="true" signature="4010:5614" ph="{...}" />
-            <marker date="1541490360461" expanded="true" signature="4057:4137" ph="{...}" />
-            <marker date="1541490360461" expanded="true" signature="4231:4703" ph="{...}" />
-            <marker date="1541490360461" expanded="true" signature="4973:5526" ph="{...}" />
-            <marker date="1541490360461" expanded="true" signature="5563:5602" ph="{...}" />
+            <marker date="1541515290083" expanded="true" signature="16:5992" ph="&lt;html.../&gt;" />
+            <marker date="1541515290083" expanded="true" signature="23:371" ph="&lt;head.../&gt;" />
+            <marker date="1541515290083" expanded="true" signature="372:5984" ph="&lt;body.../&gt;" />
+            <marker date="1541515290083" expanded="true" signature="379:1668" ph="&lt;div.../&gt;" />
+            <marker date="1541515290083" expanded="true" signature="398:1661" ph="&lt;v-app.../&gt;" />
+            <marker date="1541515290083" expanded="true" signature="414:584" ph="&lt;v-toolbar.../&gt;" />
+            <marker date="1541515290083" expanded="true" signature="593:1483" ph="&lt;v-content.../&gt;" />
+            <marker date="1541515290083" expanded="true" signature="617:1462" ph="&lt;v-container.../&gt;" />
+            <marker date="1541515290083" expanded="true" signature="665:1435" ph="&lt;v-layout.../&gt;" />
+            <marker date="1541515290083" expanded="true" signature="703:1305" ph="&lt;v-flex.../&gt;" />
+            <marker date="1541515290083" expanded="true" signature="736:1173" ph="&lt;v-combobox.../&gt;" />
+            <marker date="1541515290083" expanded="true" signature="1326:1407" ph="&lt;v-flex.../&gt;" />
+            <marker date="1541515290083" expanded="true" signature="1492:1648" ph="&lt;v-footer.../&gt;" />
+            <marker date="1541515290083" expanded="true" signature="1534:1628" ph="&lt;v-flex.../&gt;" />
+            <marker date="1541515290083" expanded="true" signature="1915:5976" ph="&lt;script.../&gt;" />
+            <marker date="1541515290083" expanded="true" signature="1973:4113" ph="{...}" />
+            <marker date="1541515290083" expanded="true" signature="2009:2109" ph="{...}" />
+            <marker date="1541515290083" expanded="true" signature="2128:4107" ph="{...}" />
+            <marker date="1541515290083" expanded="true" signature="2166:2716" ph="{...}" />
+            <marker date="1541515290083" expanded="true" signature="2199:2310" ph="[...]" />
+            <marker date="1541515290083" expanded="true" signature="2393:2622" ph="{...}" />
+            <marker date="1541515290083" expanded="true" signature="2756:3406" ph="{...}" />
+            <marker date="1541515290083" expanded="true" signature="2961:3372" ph="{...}" />
+            <marker date="1541515290083" expanded="true" signature="3450:3554" ph="{...}" />
+            <marker date="1541515290083" expanded="true" signature="3609:3702" ph="{...}" />
+            <marker date="1541515290083" expanded="true" signature="3755:3850" ph="{...}" />
+            <marker date="1541515290083" expanded="true" signature="3894:3949" ph="{...}" />
+            <marker date="1541515290083" expanded="true" signature="3993:4097" ph="{...}" />
+            <marker date="1541515290083" expanded="true" signature="4169:4243" ph="{...}" />
+            <marker date="1541515290083" expanded="true" signature="4356:5964" ph="{...}" />
+            <marker date="1541515290083" expanded="true" signature="4403:4483" ph="{...}" />
+            <marker date="1541515290083" expanded="true" signature="4577:5049" ph="{...}" />
+            <marker date="1541515290083" expanded="true" signature="5319:5876" ph="{...}" />
+            <marker date="1541515290083" expanded="true" signature="5913:5952" ph="{...}" />
           </folding>
         </state>
       </provider>

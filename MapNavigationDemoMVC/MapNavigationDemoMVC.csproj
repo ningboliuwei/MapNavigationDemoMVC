@@ -116,6 +116,12 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="CommandLineTools\account.txt" />
+    <Content Include="CommandLineTools\deploy_choose.bat" />
+    <Content Include="CommandLineTools\deploy_default.bat" />
+    <Content Include="CommandLineTools\mysql_autoback.bat" />
+    <Content Include="CommandLineTools\ORDERMEALS_IMPORT.bat" />
+    <Content Include="CommandLineTools\xpath.bat" />
     <Content Include="Content\bootstrap-grid.css" />
     <Content Include="Content\bootstrap-grid.min.css" />
     <Content Include="Content\bootstrap-reboot.css" />

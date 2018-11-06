@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ContentModelStore">
     <e p="C:\GitHub\MapNavigationDemoMVC" t="IncludeFlat">
-      <e p=".git\info\exclude" t="IncludeRecursive" />
       <e p="MapNavigationDemoMVC" t="IncludeRecursive">
         <e p="App_Data" t="Include" />
         <e p="App_Start" t="Include">
@@ -11,6 +10,14 @@
           <e p="RouteConfig.cs" t="Include" />
         </e>
         <e p="bin" t="ExcludeRecursive" />
+        <e p="CommandLineTools" t="Include">
+          <e p="account.txt" t="Include" />
+          <e p="deploy_choose.bat" t="Include" />
+          <e p="deploy_default.bat" t="Include" />
+          <e p="mysql_autoback.bat" t="Include" />
+          <e p="ORDERMEALS_IMPORT.bat" t="Include" />
+          <e p="xpath.bat" t="Include" />
+        </e>
         <e p="Content" t="Include">
           <e p="bootstrap-grid.css" t="Include" />
           <e p="bootstrap-grid.css.map" t="Include" />
@@ -117,8 +124,8 @@
       <e p="MapNavigationDemoMVC.sln" t="IncludeFlat" />
       <e p="packages" t="ExcludeRecursive" />
     </e>
-    <e p="C:\Users\慰\.Rider2018.2\config\extensions" t="IncludeRecursive" />
-    <e p="C:\Users\慰\.Rider2018.2\system\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\慰\.Rider2018.2\system\resharper-host\temp\ReSharperHost\v182\SolutionCaches\_MapNavigationDemoMVC.323954140.00" t="ExcludeRecursive" />
+    <e p="C:\Users\刘慰\.Rider2018.2\config\extensions" t="IncludeRecursive" />
+    <e p="C:\Users\刘慰\.Rider2018.2\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\刘慰\.Rider2018.2\system\resharper-host\Local\Transient\ReSharperHost\v182\SolutionCaches\_MapNavigationDemoMVC.323954140.00" t="ExcludeRecursive" />
   </component>
 </project>

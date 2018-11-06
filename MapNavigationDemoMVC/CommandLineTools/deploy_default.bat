@@ -1,0 +1,1 @@
+"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\MSBuild.exe" Ltdc.csproj /p:DeployOnBuild=true /p:Configuration=Release /p:PublishProfile=ÕýÊ½°æ /p:username=Administrator /p:password=!Xdrj123456

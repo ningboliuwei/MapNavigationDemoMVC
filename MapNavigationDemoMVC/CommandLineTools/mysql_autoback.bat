@@ -1,0 +1,2 @@
+set filename=ordermeals_backup_%date:~0,4%-%date:~5,2%-%date:~8,2%_%time:~0,2%-%time:~3,2%-%time:~6,2%.txt
+C:\xampp\mysql\bin\mysqldump.exe -u root --host localhost --port 3307 ordermeals --extended-insert=false --lock-all-tables --ignore-table=ordermeals.__migrationhistory >c:\database_backup\%filename%

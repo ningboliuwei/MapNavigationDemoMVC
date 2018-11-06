@@ -16,9 +16,12 @@
             <v-container fluid fill-height>
                 <v-layout column>
                     <v-flex>
-                        <v-combobox v-bind:value="destination" v-on:keyup="keyUpHandler"
+                        <v-combobox v-bind:value="destination"
+                                    v-on:keyup="keyupHandler"
                                     v-on:compositionstart="compositionStartHandler"
                                     v-on:compositionend="compositionEndHandler"
+                                    v-on:input="inputHandler"
+                                    v-on:paste="pasteHandler"
                                     v-bind:items="keywordSearchResult">
                         </v-combobox>
                         <v-btn color="success" v-on:click="routeSearch">GO TO {{destination}}</v-btn>
@@ -82,7 +85,7 @@
                         });
                 }
             },
-            keyUpHandler: function(event) {
+            keyupHandler: function(event) {
                 vm.destination = event.target.value;
                 vm.keywordSearch();
             },
@@ -93,6 +96,14 @@
             compositionEndHandler: function(event) {
                 // 输入法拼词开始后，解锁，恢复触发 keyup 事件
                 inputLock = false;
+            },
+            inputHandler: function(event) {
+                vm.destination = event;
+                vm.keywordSearch();
+            },
+            pasteHandler: function(event) {
+                vm.destination = event.target.value;
+                vm.keywordSearch();
             }
         }
     });
@@ -141,9 +152,9 @@
                 } //如为IP精确定位结果则没有精度信息
                 str.push(`是否经过偏移：${data.isConverted ? '是' : '否'}`);
 
-                console.log(vm.source);
+//                console.log(vm.source);
                 vm.source = data.formattedAddress;
-                console.log(vm.source);
+//                console.log(vm.source);
             }
 
             function onError(data) {
