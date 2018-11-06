@@ -16,7 +16,9 @@
             <v-container fluid fill-height>
                 <v-layout column>
                     <v-flex>
-                        <v-combobox v-bind:value="destination" v-on:keyup="destination = $event.target.value;keywordSearch();"
+                        <v-combobox v-bind:value="destination" v-on:keyup="keyUpHandler"
+                                    v-on:compositionstart="compositionStartHandler"
+                                    v-on:compositionend="compositionEndHandler"
                                     v-bind:items="keywordSearchResult">
                         </v-combobox>
                         <v-btn color="success" v-on:click="routeSearch">GO TO {{destination}}</v-btn>
@@ -38,6 +40,8 @@
 <script src="https://cdn.jsdelivr.net/npm/vuetify/dist/vuetify.js"></script>
 <script src="https://webapi.amap.com/maps?v=1.4.10&key=b1b74d37af79bb235194018744626451"></script>
 <script>
+    var inputLock = false;
+
     var vm = new Vue({
         el: '#app',
         data: {
@@ -65,17 +69,30 @@
                 driving.search(points);
             },
             keywordSearch: function() {
-                console.log(vm.destination);
-                var autoComplete = new AMap.Autocomplete();
-                autoComplete.search(vm.destination,
-                    function(status, result) {
-                        vm.keywordSearchResult.splice(0, vm.keywordSearchResult.length); //清空数组
-                        if (result.tips != null) {
-                            for (var i = 0; i < result.tips.length; i++) {
-                                vm.keywordSearchResult.push(result.tips[i].name);
+                if (!inputLock) {
+                    var autoComplete = new AMap.Autocomplete();
+                    autoComplete.search(vm.destination,
+                        function(status, result) {
+                            vm.keywordSearchResult.splice(0, vm.keywordSearchResult.length); //清空数组
+                            if (result.tips != null) {
+                                for (var i = 0; i < result.tips.length; i++) {
+                                    vm.keywordSearchResult.push(result.tips[i].name);
+                                }
                             }
-                        }
-                    });
+                        });
+                }
+            },
+            keyUpHandler: function(event) {
+                vm.destination = event.target.value;
+                vm.keywordSearch();
+            },
+            compositionStartHandler: function(event) {
+                // 输入法拼词开始后，锁住，不触发 keyup 事件
+                inputLock = true;
+            },
+            compositionEndHandler: function(event) {
+                // 输入法拼词开始后，解锁，恢复触发 keyup 事件
+                inputLock = false;
             }
         }
     });
@@ -135,8 +152,6 @@
 
 
         });
-
-
 </script>
 </body>
 </html>
